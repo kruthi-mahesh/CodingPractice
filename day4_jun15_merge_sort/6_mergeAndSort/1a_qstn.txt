@@ -1,0 +1,31 @@
+Input N number of arrays and print the merged array in ascending order containing only unique elements.
+
+Output in one line the merged array sorted in ascending order.
+Constraints:
+1<=T<=50
+1<=N<=4
+1<=Ai<=100
+Example:
+Input:
+1
+3
+3
+1 2 8
+2
+4 9
+3
+1 2 8
+Output:
+1 2 4 8 9
+
+EDitorial:
+Take input in an array and add elements to a set  and sort the set and print it
+ 
+
+Implementation in python
+
+ a=raw_input()
+for k in range(0,len(a)):
+            s.add(int(a[k]))
+    s=sorted(s)
+
